@@ -1,6 +1,6 @@
 # PDF Merger — Pas Foto / Dokumen
 
-Gabung foto/scan dokumen jadi satu PDF langsung di browser. Urutan tetap: KTP, Paspor, Pas Foto, KK, Akta, lalu halaman teks Email Aktif & WhatsApp Aktif.
+Gabung foto/scan dokumen jadi satu PDF langsung di browser. Urutan tetap: KTP, Paspor, Pas Foto, KK, Akta, lalu halaman teks Email & WhatsApp.
 
 ## Fitur
 - **100% offline** — satu file HTML, semua library (pdf-lib + OpenCV.js) sudah tergabung, tanpa server
@@ -23,8 +23,8 @@ Gabung foto/scan dokumen jadi satu PDF langsung di browser. Urutan tetap: KTP, P
 3. Pas Foto 4 × 6 (tanpa efek scan)
 4. Kartu Keluarga
 5. Akta Kelahiran
-6. Email Aktif
-7. WhatsApp Aktif
+6. Email
+7. WhatsApp
 
 > File tidak pernah dikirim ke mana pun — semua proses berjalan di browser lokal.
 

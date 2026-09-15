@@ -249,8 +249,8 @@ if (typeof module === "object" && module.exports) {
     {num:'5', key:'akta',   label:'Akta Kelahiran',      hint:'Scan / foto'}
   ];
   var TEXT_SLOTS = [
-    {num:'6', key:'email',    label:'Email Aktif',      ph:'contoh: rachmad@gmail.com'},
-    {num:'7', key:'whatsapp', label:'WhatsApp Aktif',  ph:'contoh: 0812xxxxxxx'}
+    {num:'6', key:'email',    label:'Email',      ph:'contoh: rachmad@gmail.com'},
+    {num:'7', key:'whatsapp', label:'WhatsApp',  ph:'contoh: 0812xxxxxxx'}
   ];
 
   var UPLOAD_SVG = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 16V4m0 0l-5 5m5-5l5 5"/><path d="M4 20h16"/></svg>';
@@ -536,8 +536,8 @@ if (typeof module === "object" && module.exports) {
       }
 
       var contacts = [];
-      if (email) contacts.push(['EMAIL AKTIF', email]);
-      if (wa)    contacts.push(['WHATSAPP AKTIF', wa]);
+      if (email) contacts.push(['EMAIL', email]);
+      if (wa)    contacts.push(['WHATSAPP', wa]);
       if (contacts.length === 1) await drawTextPage(pdf, contacts[0][0], contacts[0][1]);
       if (contacts.length === 2) await drawContactsPage(pdf, contacts[0], contacts[1]);
 
