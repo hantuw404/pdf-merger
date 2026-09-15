@@ -10,7 +10,7 @@ Gabung foto/scan dokumen jadi satu PDF langsung di browser. Urutan tetap: KTP, P
 - Nama di isi → output otomatis `NAMA.pdf`
 
 ## Cara pakai
-1. Buka `pas-foto-pdf.html` di browser (Chrome/Edge/Firefox)
+1. Buka `index.html` di browser (Chrome/Edge/Firefox)
 2. Isi nama pemilik dokumen
 3. Tarik/klik gambar ke slot 1–5
 4. Centang **Efek scan** kalau foto mentah/miring
